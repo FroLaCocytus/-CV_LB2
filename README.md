@@ -250,7 +250,7 @@ cv2.destroyAllWindows()
 Следующий алгоритм это <b>ORB</b>:
 
 <figure>
-  <p align="center"><img src="img_for_readme/ORB_test.png"></p>
+  <p align="center"><img src="img_for_readme/orb_test.png"></p>
 </figure>
 <p align="center"><i>Результаты тестов</i></p><br>
 
