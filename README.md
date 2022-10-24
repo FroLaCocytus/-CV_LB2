@@ -74,8 +74,9 @@ res = cv2.matchTemplate(img_gray, template, cv2.TM_SQDIFF)
 ```
 <figure align="center">
   <p align="center"><img src="img_for_readme/meth.png"></p>
-  <p align="center"><figcaption><i>Карта вероятности располажения эталона на исходном изображении</i></figcaption></p>
-</figure><br><br>
+</figure>
+<p align="center"><i>Карта вероятности располажения эталона на исходном изображении</i></p><br><br>
+
 
 <b>Нахождение наиболее вероятной позиции для эталона</b>
 
