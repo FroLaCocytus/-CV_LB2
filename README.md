@@ -73,8 +73,8 @@ template = cv2.imread('data/img1.1.jpg', 0)
 res = cv2.matchTemplate(img_gray, template, cv2.TM_SQDIFF)
 ```
 <figure align="center">
-  <p><img src="img_for_readme/meth.png"></p>
-  <figcaption ><i>Карта вероятности располажения эталона на исходном изображении</i></figcaption>
+  <p align="center"><img src="img_for_readme/meth.png"></p>
+  <p align="center"><figcaption><i>Карта вероятности располажения эталона на исходном изображении</i></figcaption></p>
 </figure><br><br>
 
 <b>Нахождение наиболее вероятной позиции для эталона</b>
@@ -110,9 +110,9 @@ cv2.waitKey()
 cv2.destroyAllWindows()
 ```
 
-<figure align="center">
-  <p><img src="img_for_readme/output.png"></p>
-  <figcaption><i>Вывод результата</i></figcaption>
+<figure>
+  <p align="center"><img src="img_for_readme/output.png"></p>
+  <p align="center"><figcaption><i>Вывод результата</i></figcaption></p>
 </figure><br><br>
 
 <h4>2. ORB</h4>
